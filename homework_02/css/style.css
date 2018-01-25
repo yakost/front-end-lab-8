@@ -45,3 +45,54 @@ write your code here
     text-align: center;
   }
 }
+
+@media screen {
+  li.box {
+    border-width: 0px !important;
+    outline: 1px solid silver;
+    position: relative;
+  }
+
+  p::first-letter {
+    color: #76cdd7;
+    font-size: 30px;
+  }
+  .tm-sidebar, .tm-banner, .flex-2-col, #about, .heading, section.blocks div.pad, section.blocks div.tm-content-box, #ideas, section.tm-content-box {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.55);
+  }
+
+  .gallery-container a img {
+    border: 2px solid silver;
+  }
+
+  .carousel-item:first-child h2 {
+    color: gainsboro;
+    letter-spacing: 5px;
+  }
+
+  h2+p {
+    font-style: italic;
+  }
+
+  section:nth-child(2) p {
+    text-indent: 20px;
+    line-height: 30px;
+  }
+
+  a:visited {
+    color: silver;
+  }
+  a:hover {
+    color: #76cdd7;
+  }
+  a.text:after {
+    content: "New";
+    vertical-align: super;
+    color: red;
+    font-size: 8px;
+  }
+  a {
+    color: #000;
+  }
+  
+}
