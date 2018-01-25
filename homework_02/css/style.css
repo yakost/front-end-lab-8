@@ -94,5 +94,51 @@ write your code here
   a {
     color: #000;
   }
-  
+  section.blocks li.box:nth-child(odd) {
+    background-color: #e2e2e2;
+  }
+  section.blocks li.box {
+    border: 1px solid silver !important;
+  }
+  section.blocks li.box p {
+    font-size: 21px;
+  }
+  section.blocks li.box h2 {
+    font-size: 40px;
+  }
+  section.blocks li.box p::first-letter {
+    color: #000;
+    font-size: 30px;
+  }
+
+  .tm-nav-item:nth-child(-n+3) {
+    border-bottom: 1px solid silver;
+  }
+  .tm-main-nav {
+    padding: 0;
+  }
+
+  .form-control {
+    color: red;
+  }
+  .submit-btn {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 1140px), (max-height: 835px) {
+  .tm-sidebar {
+    display: block;
+  }
+}
+@media (min-width: 1141px) and (min-height: 836px) {
+  .tm-sidebar {
+    display: table;
+    position: relative;
+    width: 100%;
+   }
+   .tm-sidebar li {
+    display: table-cell;
+   }
+
 }
