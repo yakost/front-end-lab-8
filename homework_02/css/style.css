@@ -12,6 +12,7 @@ a:focus{color:#666;outline:0}ul{padding:0;margin:0}body{background-color:#f2f2f2
 write your code here
 
 */
+/* 1 task*/
 @media print {
   .tm-banner-inner {
     height: 200px;
@@ -46,39 +47,48 @@ write your code here
   }
 }
 
-@media screen {
+/* 2 task*/
+
   li.box {
     border-width: 0px !important;
     outline: 1px solid silver;
     position: relative;
   }
 
+/* 3 task*/
   p::first-letter {
     color: #76cdd7;
     font-size: 30px;
   }
+
+/* 4 task*/
   .tm-sidebar, .tm-banner, .flex-2-col, #about, .heading, section.blocks div.pad, section.blocks div.tm-content-box, #ideas, section.tm-content-box {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.55);
   }
 
+/* 5 task*/
   .gallery-container a img {
     border: 2px solid silver;
   }
 
+/* 6 task*/
   .carousel-item:first-child h2 {
     color: gainsboro;
     letter-spacing: 5px;
   }
 
+/* 7 task*/
   h2+p {
     font-style: italic;
   }
 
+/* 8 task*/
   section:nth-child(2) p {
     text-indent: 20px;
     line-height: 30px;
   }
 
+/* 9 task*/
   a:visited {
     color: silver;
   }
@@ -94,6 +104,8 @@ write your code here
   a {
     color: #000;
   }
+
+  /* 10 task*/
   section.blocks li.box:nth-child(odd) {
     background-color: #e2e2e2;
   }
@@ -111,6 +123,7 @@ write your code here
     font-size: 30px;
   }
 
+/* 11 task*/
   .tm-nav-item:nth-child(-n+3) {
     border-bottom: 1px solid silver;
   }
@@ -118,27 +131,29 @@ write your code here
     padding: 0;
   }
 
+/* 12 task*/
   .form-control {
     color: red;
   }
   .submit-btn {
     color: red;
   }
-}
 
-@media screen and (max-width: 1140px), (max-height: 835px) {
-  .tm-sidebar {
-    display: block;
+/* 13 task ???*/
+/@media screen and (max-width: 1140px), (max-height: 835px) {
+  .container {
+  display: flex;
+  flex-flow: row wrap;
   }
-}
-@media (min-width: 1141px) and (min-height: 836px) {
-  .tm-sidebar {
-    display: table;
-    position: relative;
+  .tm-sidebar ul{
+    display: flex;
+  }
+  .tm-main-nav li {
+    display: inline;
     width: 100%;
-   }
-   .tm-sidebar li {
-    display: table-cell;
-   }
+    text-align: center;
+  }
 
-}
+
+
+  }

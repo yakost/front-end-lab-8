@@ -1,0 +1,34 @@
+$contentBackground: null !default;
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: $contentBackground;}
+
+body {
+  width: 100%;
+  background: $bodyBackground;}
+h1 {
+  color: $h1h2Background;
+  text-align: center;
+  &:nth-child(1) {padding-top: 20px;}
+}
+h2 {
+  color: $h1h2Background;
+}
+p {
+  color: $textColor;
+  font-size: $fontSize;
+}
+
+.brief {
+  background: $briefBackground;
+  float: left;
+  width: 380px;
+  height: 55px;
+  padding: 20px;
+  margin-right: 20px;}
+.img-right {
+  float: right;
+  margin-left: 20px;}
