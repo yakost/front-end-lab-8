@@ -126,21 +126,28 @@
     <div class="formfields">
       <h2>Залишити відгук</h2>
         <form action="index.html" method="post">
-          ІМ'Я':   ПРІЗВИЩЕ:<br>
-          <input type="text" placeholder="Введіть імейл" name="firstname">
-          <input type="text" placeholder="Введіть прізвище" name="lastname">
+          <div class="textInline">
+            <label for="name">ІМ'Я':</label> <br>
+            <input type="text" placeholder="Введіть імейл" name="firstname"> <br>
+          </div>
+          <div class="textInline">
+            <label for="surname">ПРІЗВИЩЕ:</label> <br>
+            <input type="text" placeholder="Введіть прізвище" name="lastname">
+          </div>
           <br>
-          ІМЕЙЛ:<br>
-          <input type="email" placeholder="Введіть імейл" name="email">
+          <label for="email">ІМЕЙЛ:</label><br>
+          <input type="email" class="allInline" placeholder="Введіть імейл" name="email">
           <br>
-          ОЦІНІТЬ:<br>
-          <input type="number" name="rating">
+          <label for="rating">ОЦІНІТЬ:</label> <br>
+          <input type="number" class="allInline" name="rating">
           <br>
-          НАПИШІТЬ ВІДГУК:<br>
-          <textarea name="message" placeholder="залишити відгук" rows="10" cols="130"></textarea>
+          <label for="comment">НАПИШІТЬ ВІДГУК:</label> <br>
+          <textarea name="message" placeholder="залишити відгук"></textarea>
           <br>
-          <input type="submit" value="Надіслати">
-        </form>
+          <div class="send-button">
+	          <button>НАДІСЛАТИ</button>
+          </div>
+      </form>
     </div>
   </div>
 </body>

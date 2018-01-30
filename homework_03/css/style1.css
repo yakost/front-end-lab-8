@@ -1,1 +1,119 @@
-#content{width:960px;margin:0 auto;padding:0 20px;background:#fff}body{width:100%;background:#dcbb9a}h1{color:#893c00;text-align:center}h1:nth-child(1){padding-top:20px}h2{color:#893c00}p{color:#000;font-size:16px}.brief{background:#fadcba;float:left;width:380px;height:55px;padding:20px;margin-right:20px}.img-right{float:right;margin-left:20px}
+body {
+  width: 100%;
+  background: #dcbb9a; }
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #fff; }
+
+h1 {
+  color: #893c00;
+  text-align: center;
+  text-transform: none; }
+  h1:nth-child(1) {
+    padding-top: 20px; }
+
+h2 {
+  color: #893c00; }
+
+p {
+  color: #000;
+  font-size: 16px; }
+
+.brief {
+  background-color: #fadcba;
+  padding: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 380px; }
+
+.img-right {
+  float: right;
+  margin-left: 20px;
+  margin-top: 10px; }
+
+.img-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px; }
+
+img {
+  border: 2px solid #893c00;
+  padding: 2px; }
+
+a {
+  color: #3d70a1; }
+  a:hover {
+    color: #893c00;
+    text-decoration: none; }
+
+caption {
+  text-align: right; }
+
+table {
+  border-spacing: 0; }
+
+th {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  background-color: #e0e0e0;
+  padding: 10px 0 10px 20px; }
+  th:nth-child(-n+2) {
+    border-right: 1px solid #fff; }
+
+td {
+  padding: 10px 10px 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 1px solid #e0e0e0; }
+
+.textInline {
+  display: inline-block;
+  width: 470px; }
+  .textInline:nth-child(2) {
+    margin-left: 15px; }
+
+.textInline input {
+  width: 100%;
+  padding: 4px 0 4px 4px;
+  margin: 8px 0 15px 0; }
+
+.allInline {
+  display: inline-block;
+  width: 958px;
+  padding: 4px 0 4px 4px;
+  margin: 8px 0 13px 0; }
+
+textarea {
+  width: 960px;
+  height: 150px;
+  margin-top: 6px; }
+
+label {
+  color: #808080; }
+
+.send-button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 230px;
+  margin: 20px 0; }
+  .send-button button {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2px;
+    width: 230px;
+    height: 42px;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid #3d70a1;
+    color: #3d70a1; }
+    .send-button button:hover {
+      background-color: #3d70a1;
+      color: #fff; }
+
+/*# sourceMappingURL=style1.css.map */
