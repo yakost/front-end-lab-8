@@ -1,0 +1,269 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+header {
+  background: url('../img/apples.jpg') no-repeat center top / cover;
+  padding-bottom: 100px;
+}
+
+.container1 {
+  width: 1100px;
+  margin: 0 auto;
+}
+.container2 {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-top: 48px;
+  float: left;
+}
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+nav {
+  float: right;
+}
+.menu {
+  padding: 0;
+  display: block;
+  margin-top: 30px;
+}
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 60px;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.menu a:hover {
+  border-bottom: 2px solid #B7C8D9;
+}
+.title1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 10px;
+  margin-top: 220px;
+}
+.and_big {
+  font-size: 90px;
+  font-family: "Times New Roman", Times, serif;
+}
+.banner .tm_sup {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: normal;
+  margin-top: 43px;
+  position: absolute;
+}
+.banner p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.clearfix:after {
+  content: "";
+  width: 100%;
+  clear: both;
+  display: table;
+}
+.button {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: block;
+  border: 2px solid #fff;
+  font-size: 14px;
+  text-decoration: none;
+  width: 230px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-top: 185px;
+}
+.button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  border: 2px solid #A4A4A4;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.wrapper > div {
+  background: #fff;
+  padding: 130px 0;
+  text-align: justify;
+}
+.wrapper > div:nth-child(1) {
+  font-size: 22px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 770px 370px;
+  grid-template-rows: 300px;
+  grid-column-gap: 30px;
+}
+.grid1 div {
+  background-color: #eee;
+  border: 1px solid #fff;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 370px 770px;
+  grid-template-rows: 300px;
+  grid-column-gap: 30px;
+  margin-top: 30px;
+}
+.grid2 div {
+  background-color: #eee;
+  border: 1px solid #fff;
+}
+
+.title2 {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+#images {
+  background: #f3f3f3;
+  width: 100%;
+  padding-bottom: 180px;
+
+}
+
+.subscribe {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  background: #fff;
+  height: 200px;
+  margin-top: 90px;
+}
+.subscribe p {
+  padding: 60px 0;
+  margin-left: 100px;
+  font-size: 22px;
+}
+form {
+  width: 880px;
+  height: 60px;
+  padding: 70px 0;
+  display: inline-block;
+}
+form input {
+  margin-right: -4px;
+  width: 405px;
+  border: 2px solid #A4A4A4;
+  border-right: none;
+  height: 50px;
+  background-color: #f3f3f3;
+}
+
+form input[type="email"] {
+  padding-left: 25px;
+  font-size: 14px;
+  color: #000;
+}
+form button {
+  height: 56px;
+  margin-top: 1px;
+  background: #343638;
+  color: #fff;
+  width: 160px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+}
+form button:hover {
+  background: #A4A4A4;
+  color: #000;
+  border: 2px solid #A4A4A4;
+  box-shadow: 3px 7px 12px #888888;
+}
+
+.foorgrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 100px 0;
+}
+.foorgrid > div {
+  background: #fff;
+}
+.foorgrid p {
+  font-size: 14px;
+  color: #9E9E9E;
+}
+.sec1 {
+  width: 210px;
+}
+.sec1 p {
+  line-height: 21px;
+}
+.sec2 p {
+  line-height: 26px;
+}
+.sec3 {
+  width: 210px;
+}
+.sec4 {
+  padding-left: 22px;
+}
+.sec4 p {
+  line-height: 22px;
+}
+.form_mini {
+  width: 270px;
+  height: 55px;
+  padding: 10px 0;
+  display: inline-block;
+}
+.form_mini input {
+  margin-right: -4px;
+  width: 150px;
+  border: 1px solid #343638;
+  border-right: none;
+  height: 45px;
+  background-color: #f3f3f3;
+}
+
+.form_mini input[type="email"] {
+  padding-left: 15px;
+  font-size: 14px;
+  font-style: italic;
+  color: #000;
+}
+.form_mini button {
+  height: 49px;
+  margin-top: 1px;
+  background: #343638;
+  color: #fff;
+  width: 100px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+}
+.form_mini button:hover {
+  background: #A4A4A4;
+  color: #000;
+  border: 1px solid #A4A4A4;
+  box-shadow: 3px 7px 12px #888888;
+}
