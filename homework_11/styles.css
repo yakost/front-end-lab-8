@@ -1,0 +1,26 @@
+li {
+	list-style: none;
+}
+
+.folder {
+	color: #DFC543;
+}
+
+.file {
+	color: #A4A4A4;
+}
+.context {
+	font-size: 24px;
+	line-height: 24px;
+	display: flex;
+	margin: 5px;
+}
+
+.context:hover {
+	background-color: #DED9D9;
+}
+
+.empty {
+	font-style: italic;
+	font-size: 24px;
+}
